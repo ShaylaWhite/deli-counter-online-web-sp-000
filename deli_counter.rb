@@ -12,3 +12,5 @@ def line(katz_deli)
     puts "The line is currently: #{numbered_list.join(" ")}"
   end
 end
+
+def 
