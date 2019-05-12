@@ -13,22 +13,16 @@ def line(katz_deli)
   end
 end
 
-def take_a_number(katz_deli,person)
-  if katz_deli.length == 0
-    katz_deli.push(person)
+
+def take_a_number(katz_deli, person)
+  katz_deli.push(person)
   puts "Welcome, #{person}. You are number #{katz_deli.length} in line."
 end
-else
-  katz_deli.each do |name|
-      numbered_list.push("#{number}. #{name}")
-      number += 1
- end
- 
- def now_serving(katz_deli)
+
+def now_serving(katz_deli)
   if katz_deli.length == 0
     puts "There is nobody waiting to be served!"
   else
-end
     puts "Currently serving #{katz_deli[0]}."
     katz_deli.shift
   end
