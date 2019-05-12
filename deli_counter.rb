@@ -17,11 +17,11 @@ def take_a_number(katz_deli,person)
   if katz_deli.length == 0
     katz_deli.push(person)
   puts "Welcome, #{person}. You are number #{katz_deli.length} in line."
-else 
+end
+else
   katz_deli.each do |name|
       numbered_list.push("#{number}. #{name}")
       number += 1
-end
  end
  
  def now_serving(katz_deli)
