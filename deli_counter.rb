@@ -8,5 +8,5 @@ end
 def take_a_number(katz_deli,name)
   katz_deli.each do |name|
     puts "Welcome, #{name}. You are #{number}  in line."
-    line 
+    number += 1
 end
