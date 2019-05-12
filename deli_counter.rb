@@ -6,7 +6,5 @@ def line(katz_deli)
 end
 
 def take_a_number(katz_deli,name)
-  line. 
-  Welcome, #{name}. You are number #{number} in line.
-
+  if katz_deli.length >= 1
 end
